@@ -1,17 +1,17 @@
-import Card from './Card'
+import Card from "./Card"
 
 const Article = ({ article }) => {
   let text = article.fields.bodyText
   if (text.length > 400){
     text = `${text.substring(0, 400)}...`
   }
-  const content = text.split('. ')
+  const content = text.split(". ")
   function parseDate(date) {
-    var d = date.split(/\D+/);
+    var d = date.split(/\D+/)
     return new Date(Date.UTC(d[0], --d[1], d[2], d[3], d[4], d[5], d[6]))
   }
   const parsedDate = parseDate(article.webPublicationDate).toString()
-  const date = parsedDate.split('G')
+  const date = parsedDate.split("G")
   return (
     <div className='card'>
       <Card article={article} />
