@@ -53,6 +53,8 @@ hr {
 .header-date {
   font-family: 'Open Sans', sans-serif;
   margin-right: 17%;
+  font-size: .8rem;
+  color: whitesmoke;
 }
 
 .hamburger {
@@ -88,7 +90,6 @@ hr {
 }
 
 .nav-link {
-  font-weight: bold;
   cursor: pointer;
   margin-right: 1em;
   margin-left: 1em;
@@ -136,7 +137,7 @@ hr {
 }
 
 .card-subheader {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .card img {
@@ -209,16 +210,20 @@ hr {
 }
 
 .sidebar-header {
-  margin-top: 0;
-  font-size: 1.5rem;
+  color: darkblue;
+  font-family: 'DM Serif Text', serif;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
 }
 
 .sidebar-subheader {
-  color: darkblue;
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: red;
+  font-weight: bold;
   font-family: 'DM Serif Text', serif;
-  font-size: 1.5rem;
-  margin: 0;
-  padding: 0;
 }
 
 .scroll-up {

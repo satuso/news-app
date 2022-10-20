@@ -14,7 +14,7 @@ const Header = ({ setCategory, category }) => {
     <div className='header'>
       <Link to='/'>
         <h1 onClick={() => setCategory("world")} aria-label='front page with world news'>
-          News∙<span className='header-category'>{category}</span>
+          News • <span className='header-category'>{category}</span>
         </h1>
       </Link>
       <p className='header-date'>{date[0]}</p>

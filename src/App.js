@@ -72,7 +72,7 @@ const App = () => {
         <Footer />
         <div className='scroll-up'>
           {isVisible && (
-            <div onClick={scrollUp} aria-label='scroll to top of page'><i className="fas fa-arrow-up"></i></div>
+            <div onClick={scrollUp} aria-label='scroll to top of page'>⇧</div>
           )}
         </div>
       </ScrollToTop>
